@@ -1,0 +1,51 @@
+.vertical-off-4 {
+	margin-top: 100px;
+}
+
+.login-form fieldset legend {
+	padding: 5px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.login-button {
+	padding: 10px;
+	font-size: 20px;	
+}
+
+.calendars-popup {
+    z-index: 10000;
+}
+
+.create-modal {
+	height: 500px;
+	overflow: auto;
+}
+
+.edit-modal {
+	height: 570px;
+	overflow: auto;
+}
+
+.candidate-photo {
+	width: 65px;
+	height: 70px;
+}
+
+.upload-photo {
+	height: 400px;
+	width: 345px;
+}
+
+.div-hide {
+	display: none;
+}
+
+.classSideBar {
+	cursor: pointer;
+}
+
+/*removes the calendar days*/
+.alternate-dates {
+	display: none;
+}
