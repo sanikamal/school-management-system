@@ -64,9 +64,9 @@ Step 2: You will see the database name in the $db array. Change the name of the 
 
 ```$db['default'] = array(
     'dsn'   => '',
-    'hostname' => 'localhost',
-    'username' => 'root',
-    'password' => 'mysql',
+    'hostname' => 'localhost', (Replace with your domain name e.g 'example.com' or db host e.g 192.168.1.2:5600)
+    'username' => 'root', (Replace with db admin or access username e.g 'yourdomain_example')
+    'password' => 'mysql', (Replace with db access password for your server)
     'database' => 'sms_db',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
