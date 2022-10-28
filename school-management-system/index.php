@@ -52,6 +52,7 @@
  *     production
  *
  * NOTE: If you change these, also change the error_reporting() code below
+ * Note; Visit the file below to edit as it will suit your server configuration
  */
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 
